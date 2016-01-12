@@ -149,7 +149,7 @@
      */
     later: function (fn, when, periodic, context, data) {}
 
-    var timer = tbtx.later(function(){}, 500, true);
+    var timer = xg.later(function(){}, 500, true);
 
     timer.cancel() // 取消定时器
 
